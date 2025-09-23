@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveRight - Professional Driver Recruitment</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-blue-800 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">DriveRight</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#" class="hover:text-blue-200">Home</a>
+                <a href="#" class="hover:text-blue-200">Drivers</a>
+                <a href="#" class="hover:text-blue-200">Carriers</a>
+                <a href="#" class="hover:text-blue-200">About</a>
+                <a href="#" class="hover:text-blue-200">Contact</a>
+            </div>
+            <button class="md:hidden">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-700 text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Find Your Next Driving Job</h1>
+            <p class="text-xl md:text-2xl mb-8">Join thousands of drivers finding great opportunities with top carriers</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#" class="bg-white text-blue-700 px-8 py-4 rounded-lg font-bold hover:bg-blue-100 transition">Driver Application</a>
+                <a href="#" class="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-blue-600 transition">Carrier Login</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Why Choose DriveRight?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm">
+                    <i data-feather="dollar-sign" class="w-12 h-12 text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Competitive Pay</h3>
+                    <p class="text-gray-600">Earn top industry wages with our network of premium carriers.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm">
+                    <i data-feather="map" class="w-12 h-12 text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Flexible Routes</h3>
+                    <p class="text-gray-600">Choose from local, regional, or OTR opportunities that fit your lifestyle.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm">
+                    <i data-feather="shield" class="w-12 h-12 text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Safety First</h3>
+                    <p class="text-gray-600">Work with carriers that prioritize your safety and well-being.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Listings -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Current Job Openings</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Job Card 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">OTR Truck Driver</h3>
+                        <p class="text-gray-600 mb-4">$0.60 - $0.70 per mile</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Full-time</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Home Weekly</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">Drive for a top-rated carrier with excellent equipment and benefits.</p>
+                        <a href="#" class="text-blue-600 font-bold hover:text-blue-800">View Details →</a>
+                    </div>
+                </div>
+                
+                <!-- Job Card 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Local Delivery Driver</h3>
+                        <p class="text-gray-600 mb-4">$25 - $30 per hour</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Full-time</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Home Daily</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">Local routes with consistent schedule and benefits package.</p>
+                        <a href="#" class="text-blue-600 font-bold hover:text-blue-800">View Details →</a>
+                    </div>
+                </div>
+                
+                <!-- Job Card 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Regional Flatbed Driver</h3>
+                        <p class="text-gray-600 mb-4">$0.65 - $0.75 per mile</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Full-time</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Home Weekly</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">Experience preferred but willing to train the right candidate.</p>
+                        <a href="#" class="text-blue-600 font-bold hover:text-blue-800">View Details →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="#" class="bg-blue-700 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-800 transition">View All Jobs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-blue-800 text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">What Our Drivers Say</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-blue-700 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/200x200/1" alt="Driver" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Michael R.</h4>
+                            <p class="text-blue-200">OTR Driver</p>
+                        </div>
+                    </div>
+                    <p>"DriveRight helped me find a great company that pays well and treats me right. I'm home when I need to be and making more than ever."</p>
+                </div>
+                <div class="bg-blue-700 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/200x200/2" alt="Driver" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Sarah L.</h4>
+                            <p class="text-blue-200">Local Driver</p>
+                        </div>
+                    </div>
+                    <p>"After 5 years with the same company, I decided to make a change. DriveRight had multiple offers for me within a week."</p>
+                </div>
+                <div class="bg-blue-700 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/200x200/3" alt="Driver" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">James T.</h4>
+                            <p class="text-blue-200">Regional Driver</p>
+                        </div>
+                    </div>
+                    <p>"The application process was so easy. I was driving for a new company in less than two weeks with better pay and benefits."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Start Your Journey?</h2>
+            <p class="text-xl mb-8">Join our network of professional drivers today</p>
+            <a href="#" class="bg-blue-700 text-white px-10 py-5 rounded-lg font-bold hover:bg-blue-800 transition text-lg">Apply Now - It's Free</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">DriveRight</h3>
+                    <p class="text-gray-400">Connecting professional drivers with top carriers since 2010.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">For Drivers</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Find Jobs</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Driver Resources</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Application Process</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">For Carriers</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Post Jobs</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Recruiting Solutions</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Pricing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Carrier Login</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Contact Us</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i data-feather="phone" class="w-4 h-4 mr-2"></i>
+                            <span class="text-gray-400">(800) 555-1234</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="mail" class="w-4 h-4 mr-2"></i>
+                            <span class="text-gray-400">info@driveright.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="map-pin" class="w-4 h-4 mr-2"></i>
+                            <span class="text-gray-400">1234 Trucker Lane, Dallas, TX</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">© 2023 DriveRight. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#"><i data-feather="facebook" class="text-gray-400 hover:text-white"></i></a>
+                    <a href="#"><i data-feather="twitter" class="text-gray-400 hover:text-white"></i></a>
+                    <a href="#"><i data-feather="linkedin" class="text-gray-400 hover:text-white"></i></a>
+                    <a href="#"><i data-feather="instagram" class="text-gray-400 hover:text-white"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize AOS animations
+        AOS.init();
+        // Initialize Feather Icons
+        feather.replace();
+    </script>
+</body>
+</html>
